@@ -1,4 +1,10 @@
-#content {
+.home-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#content{
     max-width: 1600px;
     margin: 0 auto;
     text-decoration: none;
@@ -7,6 +13,7 @@
 nav a{
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-img{
@@ -43,6 +50,14 @@ main section{
 
 body{
     background-color: #3d405b;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
 }
 
 header{
@@ -57,6 +72,10 @@ nav a:hover{
 .book, .join{
     background-color: #81b29a;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -65,15 +84,20 @@ nav a:hover{
 
 .msg{
     background-color: #81b29a;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer{
     background-color: #f2cc8f;
     text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 footer a{
@@ -82,4 +106,37 @@ footer a{
 
 footer a:hover{
     background-color: #f4f1de;
+}
+
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.river-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+
+.river-img{
+    border: 10px solid black;
+}
+
+.rapids-img{
+    border: 10px solid black;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+#logo_link{
+    padding-top: 5px;
 }
