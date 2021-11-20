@@ -1,0 +1,64 @@
+body {
+    font-family:Quicksand, sans-serif;
+    background-color: #e4d6d3;
+}
+
+#weather-card {
+    width: 235px;
+    height: 351px;
+    display: grid;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+    margin: 0 auto;
+    grid-template-columns: 142px 1fr;
+    grid-template-rows: 86px 68px 22px 36px 89px 25px 1fr;
+}
+
+#weather-card .top {
+    grid-row: 1/5;
+    grid-column: 1/3;
+    background: linear-gradient(165deg, rgba(179,187,193,.5) 30%, rgba(227,207,193,.5)70%),
+        url("images/new-york.jpg")
+        center center no-repeat;
+    background-size: cover;
+}
+
+#weather-card .icon {
+    font-size: 59px;
+    grid-row: 1;
+    grid-column: 2/-1;
+    justify-self: center;
+    align-self: end;
+    color: white;
+}
+
+#weather-card .overlay {
+    grid-row: 3/5;
+    grid-column: 1/-1;
+}
+
+#weather-card .weather-text {
+    grid-row: 3;
+    grid-column: 2;
+    color: white;
+    text-transform: uppercase;
+    font-size: .8em;
+    justify-self: center;
+    font-weight: bolds;
+}
+
+#weather-card .temp {
+    grid-row: 5;
+    grid-column: 1/-1;
+    color: #626262;
+    font-size: 89px;
+    justify-self: center;
+    align-self: end;
+    font-weight: 300;
+}
+
+.temp sup {
+    font-size: .6em;
+}
+
