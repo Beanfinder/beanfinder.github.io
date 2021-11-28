@@ -4,32 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesp/home.css">
     <title>Document</title>
 </head>
 
 <body>
     <div id="content">
     <header>
-        <a href="">
-            <img src="" alt="">
-        </a>
-        <nav>
+        <div class="navbar">
             <a href="contactus.html">Contact Us</a>
             <a href="faqpage.html">FAQ</a>
             <a href="siteplan.html">Site plan</a>
-        </nav>
+        </div>
     </header>
-    <div id="hero">
-        <div id="hero-box">
-            <img src="" alt="">
+    <div class="container">
+        <img src="images2/logo.png" alt="logo" style="width: 100%; height: 250px;">
+        <div class="home-title">
+            <h1>Welcome to Tummy Butler!</h1>
+            <h4>Find the resturaunt for you</h4>
+            <form action="zipcode">
+                <input id="zip" name="zip" type="text" pattern="[0-9]*">
+            </form>
     </div>
-    <section id="hero-msg">
-        <h1 class="Home title">Welcome to Tummy Butler!</h1>
-        <h4>Find the resturaunt for you</h4>
-        <form action="zipcode">
-            <input id="zip" name="zip" type="text" pattern="[0-9]*">
-        </form>
-    </section>
+        </div>
+    </div>
 </div>
 <main class="home grid">
     <section class="about-us">
@@ -39,18 +40,20 @@
 </body>
 <footer>
     <h3>Tummy Butler &copy; 2021 - Lance Riley</h3>
-    <h3><a href="contactus.html">Contact Us</a></h3>
-    <h3><a href="faqpage.html">FAQ Page</a></h3>
-    <h3><a href="siteplan.html">Site Plan</a></h3>
+    <div class="navbar2">
+        <h3><a href="contactus.html">Contact Us</a></h3>
+        <h3><a href="faqpage.html">FAQ Page</a></h3>
+        <h3><a href="siteplan.html">Site Plan</a></h3>
+    </div>
     <div class="social">
         <a href="https://facebook.com" target="_blank">
-            <img src="images/facebook.png" alt="fb icon">
+            <img src="images2/facebook.png" alt="fb icon">
         </a>
         <a href="https://twitter.png" target="_blank">
-            <img src="images/twitter.png" alt="twitter icon">
+            <img src="images2/twitter.png" alt="twitter icon">
         </a>
         <a href="https://instagram.com" target="_blank">
-            <img src="images/instagram.png" alt="instagram icon">
+            <img src="images2/instagram.png" alt="instagram icon">
         </a>
     </div>
 </footer>

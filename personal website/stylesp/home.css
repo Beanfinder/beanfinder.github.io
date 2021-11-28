@@ -1,0 +1,70 @@
+body {
+    height: 100%;
+    font-family: "montserrat", "poppings", sans-serif;
+    align-self: center;
+}
+
+header {
+    background-color: black;
+}
+
+.navbar {
+    width: auto;
+    background-color: black;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    font-size: 17px;
+    width: 31.73%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a:hover, .navbar2 a:hover {
+    background-color: yellow;
+}
+
+.hero-box {
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
+    color: white;
+}
+
+.navbar2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    position: relative;
+}
+
+.home-title {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    top: 20px;
+    left: 20px;
+    background-color: black;
+    color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.about-us {
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+
+}
