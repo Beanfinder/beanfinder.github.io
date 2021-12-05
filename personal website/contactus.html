@@ -4,68 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesp/contactus.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <a href="">
-            <img src="" alt="">
-        </a>
-        <nav>
-            <a href="index.html">home/a>
+        <div class="navbar">
+            <a href="index.html">Home</a>
             <a href="faqpage.html">FAQ</a>
             <a href="siteplan.html">Site plan</a>
-        </nav>
+        </div>
     </header>
-    <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
-        <script type="text/javascript">
-        function ValidateForm(frm) {
-        if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
-        if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
-        if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
-        if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
-        return true; }
-        </script>
-        <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
-        <tr> <td>
-        <label for="Name">Name*:</label>
-        </td> <td>
-        <input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
-        </td> </tr> <tr> <td>
-        <label for="PhoneNumber">Phone number:</label>
-        </td> <td>
-        <input name="PhoneNumber" type="text" maxlength="43" style="width:100%;max-width:250px;" />
-        </td> </tr> <tr> <td>
-        <label for="FromEmailAddress">Email address*:</label>
-        </td> <td>
-        <input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
-        </td> </tr> <tr> <td>
-        <label for="Comments">Comments*:</label>
-        </td> <td>
-        <textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
-        </td> </tr> <tr> <td>
-        * - required fields
-        </td> <td>
-        <input name="skip_Submit" type="submit" value="Submit" />
-        </td> </tr>
-        </table>
+    <div class="form">
+        <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+            <fieldset>
+                <legend>Contact Us</legend>
+                <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+                <tr> <td>
+                <label for="Name">Name:</label>
+                </td> <td>
+                <input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+                </td> </tr> <tr> <td>
+                <label for="PhoneNumber">Phone number:</label>
+                </td> <td>
+                <input name="PhoneNumber" type="text" maxlength="43" style="width:100%;max-width:250px;" />
+                </td> </tr> <tr> <td>
+                <label for="FromEmailAddress">Email address:</label>
+                </td> <td>
+                <input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
+                </td> </tr> <tr> <td>
+                <label for="Comments">Comments:</label>
+                </td> <td>
+                <textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+                </td> </tr> <tr> <td>
+                </td> <td>
+                <input name="skip_Submit" type="submit" value="Submit" />
+                </td> </tr>
+                </table>
+            </fieldset>
         </form>
-        <footer>
-            <h3>Tummy Butler &copy; 2021 - Lance Riley</h3>
+    </div>
+    <footer>
+        <h3>Tummy Butler &copy; 2021 - Lance Riley</h3>
+        <div class="navbar2">
             <h3><a href="contactus.html">Contact Us</a></h3>
             <h3><a href="faqpage.html">FAQ Page</a></h3>
             <h3><a href="siteplan.html">Site Plan</a></h3>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.png" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
-                </a>
-            </div>
-        </footer>
+        </div>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images2/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.png" target="_blank">
+                <img src="images2/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images2/instagram.png" alt="instagram icon">
+            </a>
+        </div>
 </body>
 </html>
